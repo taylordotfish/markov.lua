@@ -8,8 +8,8 @@
 -- Note that the above copyright notice applies only to the code in this
 -- file: markov.lua, which this code depends on, is licensed under version
 -- 3 or later of the GNU General Public License. Thus, any version of this
--- code that links to or is otherwise a derived work of markov.lua must
--- be distributed in accordance with markov.lua's license.
+-- code that links to or is otherwise a derived work of markov.lua may be
+-- distributed only in accordance with markov.lua's license.
 
 package.path = "../?.lua;../?/init.lua;" .. package.path
 local markov = require("markov")
