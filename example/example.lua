@@ -37,7 +37,7 @@ local function generate_chain()
 			words = {}
 		end
 	end
-	chain:serialize(io.open(CHAIN_PATH, "wb"))
+	chain:serialize(assert(io.open(CHAIN_PATH, "wb")))
 	return chain
 end
 
