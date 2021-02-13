@@ -11,9 +11,11 @@
 -- code that links to or is otherwise a derived work of markov.lua may be
 -- distributed only in accordance with markov.lua's license.
 
+-- This line isn't needed if markov.lua has been installed (e.g., from
+-- LuaRocks, where it is available under the name "markov-text").
 package.path = "../?.lua;../?/init.lua;" .. package.path
-local markov = require("markov")
 
+local markov = require("markov")
 local SCRIPT_DIR = string.gsub(arg[0], "[^/\\]*$", "")
 local CORPUS_PATH = SCRIPT_DIR .. "corpus.txt"
 local CHAIN_PATH = SCRIPT_DIR .. "cached-chain"

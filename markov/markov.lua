@@ -19,5 +19,6 @@ local pkg = (...):match(".+%.")
 local Chain = require(pkg .. "chain")
 
 return {
+	version = "0.1-0",
 	Chain = Chain,
 }
