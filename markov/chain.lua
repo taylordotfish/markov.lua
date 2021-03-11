@@ -92,7 +92,7 @@ function Chain:_pick(words, start)
 		end
 	end
 
-	i = math.random(map[TOTAL])
+	local i = math.random(map[TOTAL])
 	for word, freq in pairs(map) do repeat
 		if word == NIL then
 			word = nil
@@ -109,7 +109,7 @@ end
 
 function Chain:_extend(words, start)
 	while true do
-		word = self:_pick(words, start)
+		local word = self:_pick(words, start)
 		if word == nil then
 			return
 		end
