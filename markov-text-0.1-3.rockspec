@@ -1,7 +1,8 @@
 package = "markov-text"
-version = "0.1-2"
+version = "0.1-3"
 source = {
-	url = "git+https://github.com/taylordotfish/markov.lua.git"
+	url = "git+https://github.com/taylordotfish/markov.lua.git",
+	tag = "0.1-3"
 }
 
 description = {
